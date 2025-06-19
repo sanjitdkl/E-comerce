@@ -4,6 +4,7 @@ import { IoMdSearch } from "react-icons/io";
 import { FaCartShopping } from "react-icons/fa6";
 import { FaCaretDown } from "react-icons/fa";
 import Darkmode from "./Darkmode";
+import Hero from "../Hero/Hero";
 const Menu = [
   { id: 1, name: "Home", link: "/#" },
   { id: 2, name: "Top Rated", link: "/#service" },
