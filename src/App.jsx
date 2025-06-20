@@ -6,6 +6,7 @@ import TopProducts from "./Component/TopProduct/TopProducts";
 import Banner from "./Component/Banner/Banner";
 import Subscribe from "./Component/Suscription/Subscribe";
 import Testimonials from "./Component/Testimonials/Testimonials";
+import Footer from "./Component/Footer/Footer";
 
 const App = () => {
   const handleOrderPopup = () => {
