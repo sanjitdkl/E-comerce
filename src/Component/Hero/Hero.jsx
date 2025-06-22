@@ -57,7 +57,6 @@ const Hero = ({ handleOrderPopup }) => {
           {ImageList.map((data) => (
             <div key={data.id}>
               <div className="grid grid-cols-1 sm:grid-cols-2 items-center gap-4">
-                {/* Text Section */}
                 <div
                   data-aos="fade-right"
                   className="flex flex-col justify-center gap-4 pt-6 sm:pt-0 text-center sm:text-left order-2 sm:order-1 px-4"
