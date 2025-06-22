@@ -32,8 +32,8 @@ const ImageList = [
 const Hero = ({ handleOrderPopup }) => {
   useEffect(() => {
     AOS.init({
-      duration: 1000, // animation duration in ms
-      once: true, // whether animation should happen only once while scrolling down
+      duration: 1000,
+      once: true,
     });
   }, []);
 
@@ -76,7 +76,6 @@ const Hero = ({ handleOrderPopup }) => {
                   </button>
                 </div>
 
-                {/* Image Section */}
                 <div data-aos="fade-left" className="order-1 sm:order-2">
                   <img
                     src={data.img}
